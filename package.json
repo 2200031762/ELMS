@@ -1,19 +1,22 @@
 {
-  "name": "employee-leave-management-system",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.24.5",
-    "chart.js": "^4.4.2",
-    "express": "^4.19.2",
-    "mongoose": "^8.3.2",
-    "react-router-dom": "^6.23.0"
-  }
+    "name": "employee-leave-management-system-backend",
+    "version": "1.0.0",
+    "description": "Backend server for Employee Leave Management System",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "employee",
+        "leave",
+        "management",
+        "system",
+        "backend"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "express": "^4.19.2"
+    }
 }
