@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "employeeName": "Alice Johnson",
+      "employeeId": "EMP001",
+      "leaveStartDate": "2024-05-10",
+      "leaveEndDate": "2024-05-15",
+      "selectedLeaveType": "Vacation Leave",
+      "reason": "Planning a family vacation",
+      "numOfLeaves": 6,
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "employeeName": "Bob Smith",
+      "employeeId": "EMP002",
+      "leaveStartDate": "2024-06-01",
+      "leaveEndDate": "2024-06-05",
+      "selectedLeaveType": "Sick Leave",
+      "reason": "Medical treatment",
+      "numOfLeaves": 5,
+      "status": "Approved"
+    },
+    {
+      "id": 3,
+      "employeeName": "Charlie Brown",
+      "employeeId": "EMP003",
+      "leaveStartDate": "2024-07-10",
+      "leaveEndDate": "2024-07-15",
+      "selectedLeaveType": "Personal Leave",
+      "reason": "Attending a family event",
+      "numOfLeaves": 6,
+      "status": "Rejected"
+    }
+  ]
+  

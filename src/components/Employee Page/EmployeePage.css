@@ -1,0 +1,79 @@
+.employee-page {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.top-right {
+  margin: 10px;
+  align-self: flex-start;
+}
+
+.logout-button {
+  background-color: #5e35b1; /* Deep Purple */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.left-panel {
+  width: 200px;
+  background-color: #d1c4e9; /* Light Purple */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.dashboard-menu {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dashboard-components {
+  display: flex;
+  flex-direction: column;
+}
+
+.component {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #9575cd; /* Purple */
+  color: white;
+}
+
+.component:hover {
+  background-color: #7e57c2; /* Darker Purple on Hover */
+}
+
+.menu-icon {
+  margin-right: 10px;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #e8eaf6; /* Light Blue */
+}
+
+.scrollbar {
+  max-height: calc(100vh - 100px); /* Adjust as needed */
+  overflow-y: auto;
+}
+
+.purple {
+  background-color: #673ab7; /* Dark Purple */
+  color: white;
+}
+
+.purple:hover {
+  background-color: #5e35b1; /* Slightly Darker Purple on Hover */
+}

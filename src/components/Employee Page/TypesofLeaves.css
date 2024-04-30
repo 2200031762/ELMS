@@ -1,0 +1,20 @@
+.purple-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.purple-table th,
+.purple-table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.purple-table th {
+  background-color: #E6E6FA; /* Light purple background for table header */
+}
+
+.purple-table tbody td {
+  background-color:#E6E6FA; /* Light purple background for table rows */
+}
+
